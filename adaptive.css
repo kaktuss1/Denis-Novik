@@ -1,0 +1,117 @@
+@media only screen and (max-width: 376px) {
+    .programs {
+        display: flex;
+        flex-direction: column;
+    }
+    .programCard {
+        margin-top: 20px;
+    }
+    .stars {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    header {
+        display: none;
+    }
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .portfolioCard img {
+        width: 316px;
+        height: 171px;
+    }
+}
+@media only screen and (max-width:510px){
+    header {
+        display: none;
+    }
+    .links {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .lang {
+        display: none;
+    }
+    .profileDesc {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (max-width:780px) {
+    .programs {
+        display: flex;
+        flex-direction: column;
+    }
+    .programCard {
+        margin-top: 20px;
+    }
+    .stars {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+    }
+    /* .avatar {
+        background-image: url(./public/avatar.png);
+        background-size: cover;
+        height: 150px;
+        width: 300px;
+        margin: 0 auto;
+    } */
+}
+@media only screen and (max-width:800px) {
+    .links {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .portfolioCard img {
+        width: 400px;
+        height: 230px;
+    }
+    .programs {
+        display: flex;
+        flex-direction: column;
+    }
+    .programCard {
+        margin-top: 20px;
+    }
+    .stars {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 1490px) {
+    .portfolioCard img {
+        width: 600px;
+        height: 330px;
+    }
+    .avatar {
+        background-image: url(./public/avatar.png);
+        background-size: cover;
+        height: 300px;
+        width: 700px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .avatar {
+        background-image: url(./public/avatar.png);
+        background-size: cover;
+        height: 200px;
+        width: 400px;
+        margin: 0 auto;
+    }
+}
+
+}

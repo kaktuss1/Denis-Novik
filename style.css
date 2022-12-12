@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;;
+    margin: 0;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 63%;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+header a {
+    color: #828282;
+    text-decoration: none;
+    font-weight: bold;
+}
+.line {
+    background: #828282;
+    width: 63%;
+    height: 1px;
+    margin: 0 auto;
+}
+.profile {
+    display: flex;
+    align-items: space-between;
+    flex-direction: column;
+    width: 63%;
+    
+    margin: 0 auto;
+    justify-content: center;
+}
+.profileDesc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.aboutMe {
+    display: flex;
+    background: #F6F6F6;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.aboutMe p {
+    margin-top: 30px;
+}
+.aboutMeDesc {
+    width: max-content;
+    text-align: center;
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.programs {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: #828282;
+}
+.programCard ion-icon {
+    color: black;
+    font-size: 18px;
+}
+.stars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 140%;
+}
+.programCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio {
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.portfolioCard {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portfolioCard a {
+    margin-top: 30px;
+    color: black;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 90px;
+    padding-top: 90px;
+}
+.sendBtn {
+    color: white;
+    background: black;
+    height: 42px;
+    width: 180px;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 22%;
+    margin-top: 50px;
+}
+.avatar {
+    background-image: url(./public/avatar.png);
+    background-size: cover;
+    height: 500px;
+    width: 90%;
+    margin: 0 auto;
+}
